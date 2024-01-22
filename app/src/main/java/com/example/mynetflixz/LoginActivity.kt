@@ -24,3 +24,5 @@ class LoginActivity : AppCompatActivity() {
        }
     }
 }
+
+// do not forget to create splash screen

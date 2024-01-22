@@ -32,7 +32,7 @@ class ItemAdapter(private val itemOnClicked : (Movie) -> Unit): ListAdapter<Movi
     }
 
 
-
+// diff utils
     class DiffUtils : DiffUtil.ItemCallback<Movie>() {
         override fun areItemsTheSame(oldItem: Movie, newItem: Movie): Boolean {
             return  oldItem.id == newItem.id
